@@ -1,6 +1,7 @@
 package models
 
 abstract class Creature (
+    val name: String,
     val attack: Int,
     val defence: Int,
     val maxHealth: Int,
@@ -22,5 +23,9 @@ abstract class Creature (
             if (number==5 || number == 6) return true
         }
         return false
+    }
+
+    override fun toString(): String {
+        return ""
     }
 }

@@ -1,6 +1,7 @@
 package models
 
-class Witch: Creature(
+class Witch(name: String): Creature(
+    name,
     attack = 25,
     defence = 15,
     maxHealth = 40,
