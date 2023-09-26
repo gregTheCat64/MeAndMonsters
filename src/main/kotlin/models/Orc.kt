@@ -5,6 +5,6 @@ class Orc(name: String): Creature(
     attack = 22,
     defence = 20,
     maxHealth = 30,
-    damage = (5..10)
+    damage = (8..12)
 ) {
 }

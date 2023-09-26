@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4e8876c-f000-48ed-86ac-24975d9e7db5" name="Changes" comment="classesAdded">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+    <list default="true" id="d4e8876c-f000-48ed-86ac-24975d9e7db5" name="Changes" comment="logic_added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/models/Creature.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/models/Creature.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/models/Hero.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/models/Hero.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/models/Orc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/models/Orc.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/models/Sorcerer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/models/Sorcerer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/models/Witch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/models/Witch.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695485991899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="logic_added">
+      <created>1695641001572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695641001572</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,6 +80,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="classesAdded" />
-    <option name="LAST_COMMIT_MESSAGE" value="classesAdded" />
+    <MESSAGE value="logic_added" />
+    <option name="LAST_COMMIT_MESSAGE" value="logic_added" />
   </component>
 </project>
