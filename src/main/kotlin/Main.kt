@@ -16,7 +16,11 @@ fun main() {
             //Пролог
     println("Добрый день путник! Вы путешествуете по безграничному простору королевства.\n")
     Thread.sleep(shortPause)
+    println("¸,¤°´'`°•.¸¸.•°´'`°¤,¸\n")
+    Thread.sleep(shortPause)
     println("На вашем пути попадаются самые разнообразные создания.\n")
+
+
     Thread.sleep(shortPause)
     println("Ваша миссия истребить как можно больше чудовищ!\n")
     Thread.sleep(shortPause)
@@ -37,6 +41,8 @@ fun main() {
             //Выбираем текущего монстра:
         val currentMonster = monsters.random()
         println(separateLine)
+        Thread.sleep(shortPause)
+        println("\n ┌∩┐(◣_◢)┌∩┐")
         println("В долгом странствии вы повстречали Монстра: \n $currentMonster \n")
         Thread.sleep(shortPause)
         println("Ваши параметры: \n $hero \n")
@@ -45,8 +51,11 @@ fun main() {
 
 
         if (hero.health <= 0) {
+            println("(｡◕‿◕｡)")
+            println("\n *** КОНЕЦ ИГРЫ ***")
             return
         }
+
     }
 
 }
