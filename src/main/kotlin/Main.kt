@@ -13,6 +13,7 @@ fun main() {
 
     val hero = Hero("Grigorio")
 
+            //Пролог
     println("Добрый день путник! Вы путешествуете по безграничному простору королевства.\n")
     Thread.sleep(shortPause)
     println("На вашем пути попадаются самые разнообразные создания.\n")
@@ -65,7 +66,7 @@ fun playTheGame(hero: Hero, monster: Creature) {
                     hero.attack(monster)
                     Thread.sleep(shortPause)
                     println("Здоровье врага: ${monster.health}")
-                    //Thread.sleep(shortPause)
+
                 }
 
                 2 -> {
@@ -74,7 +75,7 @@ fun playTheGame(hero: Hero, monster: Creature) {
                     hero.cureMyself()
                     Thread.sleep(shortPause)
                     println("Элексиров осталось: $healBottles")
-                    //println(hero)
+
                 }
             }
         } else {
@@ -84,8 +85,6 @@ fun playTheGame(hero: Hero, monster: Creature) {
                     hero.attack(monster)
                     Thread.sleep(shortPause)
                     println("Здоровье врага: ${monster.health}")
-                    //Thread.sleep(shortPause)
-
 
                 }
             }
