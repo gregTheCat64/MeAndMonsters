@@ -11,7 +11,7 @@ var healBottles = 4
 
 fun main() {
 
-    val hero = Hero("Grigorio")
+    val hero = Hero("Hero")
 
             //Пролог
     println("Добрый день путник! Вы путешествуете по безграничному простору королевства.\n")
